@@ -58,6 +58,6 @@ struct lista {
 
 ```bash
 gcc -Wall -Wextra -std=c11 -Iinclude -Isrc tests/main.c -o output/teste
-./output/teste.exe
+.\output\teste.exe
 ```
 
