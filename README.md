@@ -57,12 +57,7 @@ struct lista {
 ## Como compilar e executar
 
 ```bash
-gcc -Wall -Wextra -std=c11 -Iinclude src/*.c tests/main.c -o output/programa
-./programa
+gcc -Wall -Wextra -std=c11 -Iinclude -Isrc tests/main.c -o output/teste
+./output/teste.exe
 ```
 
-Para compilar uma questão isolada (junto com o restante do TAD):
-
-```bash
-gcc -Wall -Wextra -std=c11 -Iinclude src/q5.c <demais arquivos do TAD> tests/main.c -o output/q5
-```
